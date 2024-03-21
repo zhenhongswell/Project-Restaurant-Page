@@ -1,10 +1,7 @@
-// export ?
+// export ? need {loadPageMenu}
 export function loadPageMenu(content) {
-    const title = document.createElement('div')
-    title.textContent = 'Menu!'
+  const title = document.createElement("div");
+  title.textContent = "Menu!";
 
-    content.appendChild(title)
-
+  content.appendChild(title);
 }
-
-// export const MenuData = 'M'
